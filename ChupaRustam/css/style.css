@@ -1,0 +1,417 @@
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background:#eee;
+
+}
+
+.navbar 
+{
+	margin-bottom:0px;
+	height:65px;
+}
+
+.red
+{
+	color:red;
+}
+.main-container
+{
+	height:800px;
+	margin-top:0px;
+	padding:0px;
+	margin-top: 65px;
+}
+
+.left-col, .right-col
+{
+	
+	color:#000;
+	margin-top:65px;
+}
+
+.left-col
+{
+	padding:0px;
+}
+
+.right-col
+{
+	color:#000;
+	padding-bottom:15px;
+}
+
+.middle-col
+{
+	background: #eee;
+	height:900px;
+	color:#000;
+	padding-top:30px;
+}
+	
+	
+	.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+  border-bottom:1px solid #CCCCCC;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 0px;
+}
+
+.tabs-left > .nav-tabs {
+  /* border-right: 1px solid #ddd;*/
+}
+
+
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  background:#CCC;
+}
+
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+}
+
+.thumb-img
+{
+	padding-left:10px;
+}
+
+.add-logo:hover
+{
+	background:#000;
+}
+
+#effect-6 .overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+#effect-6 .overlay a.expand {
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0 auto;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#effect-6 .img.hover .overlay {
+  opacity: 1;
+}
+#effect-6 .img.hover .overlay a.expand {
+  top: 50%;
+  margin-top: -30px;
+  opacity: 1;
+}
+
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Media Queries
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+@media only screen and (max-width: 1100px) {
+  .effects {
+    padding-left: 5px;
+  }
+  .effects .img {
+    width: 50%;
+  }
+  .effects .img:nth-child(n) {
+    margin-right: 5px;
+  }
+  .effects .img:first-child {
+    margin-left: 0;
+  }
+  .effects .img:nth-child(2n-1) {
+    margin-left: -5px;
+  }
+  .effects .img:nth-child(2n) {
+    margin-right: 0;
+  }
+  .effects .img:last-child {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .effects .img {
+    width: 100%;
+  }
+  .effects .img:nth-child(n) {
+    margin-right: 0;
+  }
+  .effects .img:first-child {
+    margin-left: 0;
+  }
+  .effects .img:nth-child(2n-1) {
+    margin-left: 0;
+  }
+  .effects .img:nth-child(2n) {
+    margin-right: 0;
+  }
+  .effects .img:last-child {
+    margin-right: 0;
+  }
+  .effects .img img {
+    margin: 0 auto;
+  }
+}
+
+.search-result
+{
+	height:280px;
+	margin-bottom:15px;
+	color:#000;
+	background:#FFF;
+	border:1px solid #CCC;
+}
+
+.confirm
+{
+	width:100%;
+}
+
+.search-content
+{
+	height:195px;
+}
+
+.search-img
+{
+	margin-top:-32px;
+	border: 1px solid #ccc;
+}
+
+.search-name
+{
+	display:inline-block;
+	margin-left:20px
+}
+
+.search-text
+{
+	margin-top:20px;
+}
+
+.navbar-nav 
+{
+	margin-top:8px;
+}
+
+.img-thumb
+{
+	margin-bottom:5px;
+	border:1px solid #ccc;
+}
+
+.img-thumb:hover
+{
+	border:3px solid #ccc;
+}
+
+.profile-img
+{
+	margin-bottom:30px;
+}
+
+.text-area
+{
+	margin-top:10px;
+}
+
+.no-display
+{
+	display:none;
+}
+
+.info p
+{
+	color:#333;
+}
+
+.cancel-btn
+{
+	margin-left:10px;
+}
+
+.loadinggif {
+  position: fixed;
+z-index: 500;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.79);
+text-align: center;
+display: none;
+height: 100%;
+}
+
+.load
+{
+	display:block;
+}
+
+.pop-up-body
+{
+	height:905px;
+}
+
+.box-border
+{
+	border: 1px dashed rgb(153, 153, 153); 
+	margin: 15px 0px -8px;
+	padding-bottom: 15px;
+	height:248px;
+}
+
+.info-box
+{
+	border: 1px dashed rgb(153, 153, 153); 
+	margin: 15px 0px -8px;
+}
+
+.box-outlet
+{
+	border: 1px dashed #999;
+	margin: 1px 0px 20px;
+	padding-bottom: 1px !important;
+	padding: 20px;
+}
+
+.box-outlet1
+{
+	border: 1px dashed #999;
+	margin: -1px 0px 20px;
+	padding-bottom: 20px !important;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 0px;
+}
+
+.box-offers
+{
+	border: 1px dashed #999;
+	margin: 0px 0px 0px;
+	padding: 10px;
+	padding-bottom:0px !important;
+}
+
+.offer-description
+{
+	width:440px;
+	border:1px solid #CCC;
+	padding:10px;
+}
+
+.tabs-left
+{
+	position: fixed;
+    background: none repeat scroll 0% 0% #FFF;
+    width: 200px;
+
+}
+
+.right-content
+{
+width: 242px;
+background: none repeat scroll 0% 0% #FFF;
+padding: 22px;
+margin-left: -15px;
+}
+
+.simple-text
+{
+	padding-top:7px;
+}
+
+.navbar
+{
+	position: fixed;
+height: 66px;
+width: 100%;
+margin-top: -66px;
+z-index: 500;
+}
